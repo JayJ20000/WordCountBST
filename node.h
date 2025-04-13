@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 
-// Node class represents each node in the Binary Search Tree (BST)
+// Node class represents each node in the tree
 class Node {
 public:
     // Constructor
