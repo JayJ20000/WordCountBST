@@ -1,4 +1,4 @@
-#include "bst.cpp"
+#include "bst.h"
 #include <iostream>
 #include <string>
 #include <fstream>
