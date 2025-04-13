@@ -12,13 +12,13 @@ class BST {
 private:
     Node* root;  // Pointer to the root node of the tree
 
-    // Renamed: Helper function to delete all nodes in the tree
+    // Helper function to delete all nodes in the tree
     void destroy(Node* current);
 
     // Helper function to print the tree (in-order traversal)
     void printHelper(Node* current);
 
-    // Renamed: Helper function to delete a node with the given key
+    // Helper function to delete a node with the given key
     Node* deleteNode(Node* current, string key);
 
     // Helper function to save the contents to a file
